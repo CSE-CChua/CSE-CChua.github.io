@@ -24,11 +24,9 @@ h2 {
     width: 300px;
     height: 200px;
     border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201);
 }
 
 .about p {
-    color: #738678;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -37,11 +35,16 @@ h2 {
 
 a {
     text-decoration: none;
-    color:#738678;
+    color: #738678;
+    font-weight: bold;
 }
+
 .projects { 
     display:flex;
     flex-wrap:wrap;
+    margin-right: 75px;
+    margin-left: 75px;
+    justify-content: space-between;
 }
 .project {
     width: 30%;
@@ -49,12 +52,15 @@ a {
     padding: 20px 10px;
     background: white;
     border-radius: 25%;
+    text-align: center;
 }
 .project img {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201);
+    border: 2px solid;
     display: block;
     margin: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
